@@ -1,0 +1,51 @@
+@media only screen and (min-width: 800px) {
+    html {
+        color: white;
+        font-family: 'Header';
+        font-size: 15pt;
+    }
+    body {
+        background-image: url(assets/Images/background.png);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        color: white;
+        font-family: 'Header';
+        font-size: 10pt;
+    }
+    body {
+        background-image: url(assets/Images/mobile-background.png);
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'Header';
+    color: black;
+    font-weight: 100;
+    src: url(assets/Fonts/Futura/FuturaBoldfont.ttf);
+}
+
+@font-face {
+    font-family: 'Default';
+    font-weight: 500;
+    color: black;
+    src: url(assets/Fonts/Futura/FuturaLightfont.ttf);
+}
+
+@font-face {
+    font-family: 'Cursive';
+    font-weight: 200;
+    color: black;
+    src: url(assets/Fonts/Futura/FuturaLightItalicfont.ttf);
+}

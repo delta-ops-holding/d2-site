@@ -1,0 +1,126 @@
+@media only screen and (min-width: 800px) {
+    * {
+        font-family: 'Header', sans-serif;
+        font-size: 15pt;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    .links li a {
+        font-family: 'Header';
+        font-weight: 0;
+        font-size: 15pt;
+        transition: all 0.3s ease 0s;
+    }
+    button {
+        background: none;
+        border: 5px solid transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 50px;
+        transition: all 0.3s ease 0s;
+    }
+    button:hover {
+        background-color: aliceblue;
+        color: black;
+        margin-left: 50px;
+        border-color: aliceblue;
+    }
+    .links li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    .logo {
+        cursor: pointer;
+        width: 2.5rem;
+        height: 2.7rem;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    * {
+        font-family: 'Header', sans-serif;
+        font-size: 10 pt;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    .links li a {
+        font-family: 'Header';
+        font-weight: 0;
+        font-size: 12.5pt;
+        transition: all 0.3s ease 0s;
+    }
+    button {
+        background: none;
+        border: 5px solid transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        margin-left: 50px;
+    }
+    button:hover {
+        background: aliceblue;
+        color: black;
+        border-color: aliceblue;
+    }
+    .links li {
+        display: inline-block;
+        padding: 0px 2px;
+    }
+    .logo {
+        cursor: pointer;
+        width: 1.5rem;
+        height: 1.6rem;
+        vertical-align: middle;
+    }
+}
+
+
+/*Always True*/
+
+.links li a:hover {
+    transition-duration: 0.5s;
+    border-bottom: 2px solid white;
+}
+
+.logo-text {
+    font-family: 'Header';
+    position: relative;
+    top: 2px;
+}
+
+li,
+a,
+button {
+    font-weight: 500;
+    color: white;
+}
+
+header {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(40, 52, 90), rgb(18, 34, 50));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 1%;
+    height: 80px;
+}
+
+.links li a:hover {
+    transition-duration: 0.5s;
+    border-bottom: 2px solid white;
+}
+
+nav ul li a:active {
+    border-bottom: 2px solid white;
+}
