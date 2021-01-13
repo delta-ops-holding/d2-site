@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "thequeenscourt-21b85": {
+      "hosting": {
+        "TQC": [
+          "thequeenscourt-21b85"
+        ]
+      }
+    }
+  }
+}
