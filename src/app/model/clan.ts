@@ -7,10 +7,10 @@ export class Clan {
     clanPlatform: ClanPlatform;
     clanAuthorities: ClanAuthority[];
 
-    constructor(name: string, about: string, clanPlatfrom: ClanPlatform, clanAuthorities: ClanAuthority[]) {
+    constructor(name: string, about: string, clanPlatform: ClanPlatform, clanAuthorities: ClanAuthority[]) {
         this.name = name;
         this.about = about;
-        this.clanPlatform = clanPlatfrom;
+        this.clanPlatform = clanPlatform;
         this.clanAuthorities = clanAuthorities;
     }
 }
