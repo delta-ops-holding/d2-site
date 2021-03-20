@@ -1,5 +1,5 @@
 <nav class="navbar navbar-dark navbar-expand-md bg-dark-gradient justify-content-center">
-    <a [routerLink]="['/']" class="navbar-brand d-flex w-50 mr-auto ml-3">THE QUEENS' COURT</a>
+    <a [routerLink]="['/']" class="navbar-brand d-flex w-25 mr-auto ml-3">THE QUEENS' COURT</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -17,8 +17,17 @@
             <li class="nav-item">
                 <a class="nav-link text-uppercase px-4 mx-2 my-3" routerLinkActive="active" [routerLink]="['/faq']">FAQ</a>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-uppercase px-4 mx-2 my-3 dropdown-toggle" href="#" id="merchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Merch
+                </a>
+                <div class="dropdown-menu" aria-labelledby="merchDropdown">
+                    <a class="dropdown-item" href="https://teespring.com/stores/thequeenscourt" target="_blank">Teespring</a>
+                    <!-- <a class="dropdown-item" href="#">Zazzle</a> -->
+                </div>
+            </li>
         </ul>
-        <ul class="nav navbar-nav ml-auto w-100 justify-content-end mr-3">
+        <ul class="nav navbar-nav ml-auto w-25 justify-content-end mr-3">
             <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
             </li>

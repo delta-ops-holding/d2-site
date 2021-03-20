@@ -9,6 +9,7 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { SherpaProgramComponent } from './pages/sherpa-program/sherpa-program.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     AboutUsComponent,
     FaqComponent,
-    SherpaProgramComponent
+    SherpaProgramComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

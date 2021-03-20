@@ -11,11 +11,3 @@
 .active {
     border-bottom: solid 1px white !important;
 }
-
-.gold-gradient {
-    background-image: linear-gradient(to left, rgba(203, 156, 48, 1) 1%, rgba(238, 225, 155) 50%, rgba(203, 156, 48, 1) 100%);
-    background-size: 100% 8px;
-    background-position: 0% 0%, 0% 100%;
-    background-repeat: no-repeat;
-    height: 8px;
-}
