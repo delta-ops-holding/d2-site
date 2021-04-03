@@ -1,0 +1,33 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 70px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.social-item {
+    display: inline;
+    font-size: 26px;
+}
+
+.social-item + .social-item {
+    margin-left: 1em;
+}
+
+.social-item:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.social-link {
+    color: #ffffff;
+}
+
+@media (max-width: 425px) {
+    .social-item {
+        font-size: 20px;
+    }
+}
