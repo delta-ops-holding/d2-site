@@ -3,30 +3,28 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { FaqComponent } from './faq/faq.component';
-import { AboutusComponent } from './aboutus/aboutus.component';
-import { NewsComponent } from './news/news.component';
-import { MerchComponent } from './merch/merch.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { SherpahubComponent } from './sherpahub/sherpahub.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './pages/home/home.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { FaqComponent } from './pages/faq/faq.component';
+import { SherpaProgramComponent } from './pages/sherpa-program/sherpa-program.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavbarComponent,
     HomeComponent,
+    AboutUsComponent,
     FaqComponent,
-    AboutusComponent,
-    NewsComponent,
-    MerchComponent,
-    HeaderComponent,
-    FooterComponent,
-    SherpahubComponent
+    SherpaProgramComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
