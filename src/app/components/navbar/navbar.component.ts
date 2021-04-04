@@ -12,4 +12,8 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onDiscordJoin(): void {
+    window.location.href = 'https://discord.gg/tqc';
+  }
+
 }
