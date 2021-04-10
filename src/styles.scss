@@ -33,3 +33,10 @@ body {
     background-repeat: no-repeat;
     height: 8px;
 }
+
+@media (max-width: 960px) {
+    .section-first {
+        max-height: 100vh;
+        min-height: 0px;
+    }
+}

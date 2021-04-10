@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark navbar-expand-md bg-dark-gradient justify-content-center">
+<nav class="navbar navbar-dark navbar-expand-xl bg-dark-gradient justify-content-center">
     <a [routerLink]="['/']" class="navbar-brand d-flex w-25 mr-auto ml-3">THE QUEENS' COURT</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -27,23 +27,9 @@
                 </div>
             </li>
         </ul>
-        <ul class="nav navbar-nav ml-auto w-25 justify-content-end mr-3">
-            <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fab fa-twitch"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fab fa-patreon"></i></a>
-            </li>
-        </ul>
+        <div id="join-container" class="justify-content-center">
+            <button class="join-button" (click)="onDiscordJoin()">JOIN US <i class="fab fa-discord"></i></button>
+        </div>
     </div>
 </nav>
 <div class="d-flex gold-gradient"></div>
