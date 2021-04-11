@@ -1,0 +1,57 @@
+.wrapper {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../../assets/img/background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0);
+}
+
+.welcome {
+    align-self: center;
+    text-align: center;
+    color: var(--text);
+}
+
+.welcome h1 {
+    font-size: 144px;
+    margin-bottom: 0;
+}
+
+.welcome p {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#join-btn {
+    height: 70px;
+    width: 200px;
+    border-radius: 27px;
+    font-size: 38px;
+    color: var(--text);
+    background: linear-gradient(90deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+    border: none;
+    box-shadow: 7px -7px 6px rgba(0, 0, 0, 0.4);
+}
+
+#join-btn:hover {
+    border: 2px solid var(--text);
+}
+
+#join-btn .fa-discord {
+    vertical-align: middle;
+    height: 38px;
+    margin-left: 10px;
+}
