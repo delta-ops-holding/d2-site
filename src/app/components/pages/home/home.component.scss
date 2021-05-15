@@ -65,7 +65,7 @@
 }
 
 .section-title {
-    width: 350px;
+    width: 450px;
     font-size: 96px;
     text-align: center;
     margin-bottom: 0;
@@ -81,7 +81,7 @@
     width: 60%;
     height: 200px;
     margin-top: 25px;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -116,4 +116,34 @@
 .stats-description {
     font-size: 24px;
     transform: skewX(15deg);
+}
+
+#features-title {
+  margin-top: 40px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.features-item {
+  width: 280px;
+  height: 185px;
+  background: linear-gradient(90deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+  margin-top: 20px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+  margin-right: 25px;
+  border-radius: 5px;
+
+  text-align: center;
+  font-size: 24px;
+  padding: 15px;
+}
+
+.features-icon {
+  font-size: 35px;
+  margin-bottom: 15px;
 }
